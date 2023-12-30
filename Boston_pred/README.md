@@ -12,6 +12,8 @@ bagging_ssa_lgbm.py  基于bagging-ssa的lgbm
 
 bagging_woa_lgbm.py  基于bagging-woa的lgbm
 
+运行上面两个文件可以看到每次优化出发点很快就相同，验证Bagging无法很好利用LightGBM
+
 result文件中是相关的拟合曲线，以及对于数据集的热力图
 
 other_methods中包含验证gbdt相比于其他四种模型的优越性，对于网格优化mse>9劣于普通的gdbt于是不加入讨论。
